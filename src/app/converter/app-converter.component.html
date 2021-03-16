@@ -1,0 +1,18 @@
+<div class="converter">
+  <input type="text" class="converter-screen" value="{{inputString}}" placeholder="Integer" readonly>
+  <input type="text" class="converter-screen" value="{{outputString}}" placeholder="String" readonly>
+  <div class="converter-keys">
+    <button type="button" (click)="numpadClick('1')">1</button>
+    <button type="button" (click)="numpadClick('2')">2</button>
+    <button type="button" (click)="numpadClick('3')">3</button>
+    <button type="button" (click)="numpadClick('4')">4</button>
+    <button type="button" (click)="numpadClick('5')">5</button>
+    <button type="button" (click)="numpadClick('6')">6</button>
+    <button type="button" (click)="numpadClick('7')">7</button>
+    <button type="button" (click)="numpadClick('8')">8</button>
+    <button type="button" (click)="numpadClick('9')">9</button>
+    <button type="button" (click)="numpadClick('#')">#</button>
+    <button type="button" (click)="numpadClick('0')">0</button>
+    <button type="button" (click)="numpadClick('', true)"><-</button>
+  </div>
+</div>

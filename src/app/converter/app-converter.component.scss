@@ -1,0 +1,30 @@
+.converter {
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 300px;
+  background-color: grey;
+}
+
+.converter-screen {
+  width: 90%;
+  height: 22px;
+  margin-left: 10px;
+  border: none;
+  margin-top: 2px;
+}
+
+button {
+  height: 55px;
+  font-size: 2rem !important;
+}
+
+.converter-keys {
+	display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  padding: 10px;
+}
