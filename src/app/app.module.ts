@@ -4,12 +4,12 @@ import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from "./app.component";
 import { UtilityService } from "./utility.service";
-import { InputCheckPipe } from "./InputCheck.pipe";
+// import { InputCheckPipe } from "./InputCheck.pipe";
 import { AppConverterComponent } from "./converter/app-converter.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, AppConverterComponent, InputCheckPipe],
+  declarations: [AppComponent, AppConverterComponent],
   bootstrap: [AppComponent],
   providers: [UtilityService]
 })
